@@ -81,9 +81,19 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            © copyright {new Date().getFullYear()}
-          </p>
+          <div className="flex justify-between items-center">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              © copyright {new Date().getFullYear()}
+            </p>
+            <a 
+              href="https://github.com/rickschmoo/richardboardman-2025"
+              className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              source
+            </a>
+          </div>
         </footer>
       </main>
     </div>
